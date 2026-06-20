@@ -1,0 +1,251 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY: sets font and background for the whole site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+/* ---- HEADER ---- */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+
+/* ---- NAVIGATION BAR ---- */
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Each nav link */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/* Hover: slightly darker blue */
+nav a:hover {
+    background-color: #2980b9;
+}
+
+/* Active: dark blue to show current page */
+nav a.active {
+    background-color: #1a5276;
+    font-weight: bold;
+}
+
+
+/* ---- MAIN CONTENT AREA ---- */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Section headings (h2) with a blue underline */
+h2 {
+    color: #2c3e50;
+    font-size: 22px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+}
+
+/* Sub headings (h3) */
+h3 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* ---- WHITE BOX (used on About, Skills, Contact) ---- */
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.box ul {
+    padding-left: 20px;
+    color: #555;
+    font-size: 15px;
+}
+
+.box ul li {
+    margin-bottom: 8px;
+}
+
+
+/* ---- HOME PAGE: Welcome box ---- */
+.welcome-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Grey circle as a photo placeholder */
+.photo-circle {
+    width: 130px;
+    height: 130px;
+    background-color: #bdc3c7;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    line-height: 130px;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+.welcome-box h2 {
+    border: none;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.welcome-box p {
+    color: #555;
+    font-size: 15px;
+}
+
+
+/* ---- HOME PAGE: Three cards side by side ---- */
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    flex: 1;
+}
+
+.card h3 {
+    color: #3498db;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* ---- SKILLS PAGE: Skill list items ---- */
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Blue left border for technical skills */
+.skill-list li {
+    background-color: #eaf4fd;
+    border-left: 4px solid #3498db;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+}
+
+.skill-list li strong {
+    display: block;
+    color: #2c3e50;
+    margin-bottom: 3px;
+}
+
+/* Green left border for soft skills */
+.skill-list.soft li {
+    background-color: #eafaf1;
+    border-left: 4px solid #27ae60;
+}
+
+
+/* ---- CONTACT PAGE: Form styling ---- */
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    margin-top: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+
+
+/* ---- FOOTER ---- */
+footer {
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: 40px;
+}
