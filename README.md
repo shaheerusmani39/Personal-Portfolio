@@ -1,2 +1,13 @@
-# Personal-Portfolio
-A simple and responsive personal portfolio website built with HTML5 and CSS3. It includes Home, About, Skills, and Contact pages to showcase my profile, education, skills, and contact details. This beginner-friendly project demonstrates fundamental web development concepts such as HTML structure, CSS styling, navigation, and responsive design.
+This project is a personal portfolio website designed to present my information, skills, and contact details professionally. The website includes:
+
+Home Page – Introduction and welcome section
+About Page – Personal background and education details
+Skills Page – Technical and professional skills
+Contact Page – Contact information and communication form
+
+Technologies Used:
+
+HTML5
+CSS3
+
+This project was developed as part of my web development learning journey and demonstrates the use of semantic HTML, CSS styling, page navigation, and responsive web design principles.
